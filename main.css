@@ -1,0 +1,50 @@
+/* Fonts */
+@font-face {
+    font-family: young-serif;
+    src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+@font-face {
+    font-family: outfit;
+    src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+p, li, td {
+    font-family: outfit;
+}
+h2,h3 {
+    font-family: young-serif;
+}
+/* /Fonts */
+/* Style */
+.div {
+    margin: 1.5rem 0 1.5rem 0;
+}
+.list-bg {
+    background: #fff3fb;
+}
+.color {
+    color: #75163e;
+    font-weight: bolder;
+}
+.div h3 {
+    color: #8d300f;
+}
+ul li::marker {
+   color: #75163e;
+}
+ol li::marker {
+    color: #8d300f;
+    font-weight: bolder;
+}
+.li {
+    color: #8d300f;
+    font-weight: bolder;
+}
+/* /Style */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
